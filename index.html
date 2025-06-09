@@ -1,13 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connectors Landing</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Connecteurs personnalisés – Grégory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to Connectors Landing</h1>
-    <script src="script.js"></script>
+<header class="hero">
+  <div class="container">
+    <h1 data-animate>Connectez vos outils en toute simplicité</h1>
+    <p data-animate>Intégrations sur-mesure pour gagner du temps et réduire vos coûts</p>
+    <a href="#contact" class="cta" data-animate>Planifiez un appel</a>
+  </div>
+</header>
+
+<section id="benefits" class="section">
+  <h2 data-animate>Vos gains immédiats</h2>
+  <div class="grid">
+    <article class="card" data-animate><h3>Efficacité</h3><p>Réduisez les tâches répétitives.</p></article>
+    <article class="card" data-animate><h3>Sécurité</h3><p>Garantissez la fiabilité des échanges de données.</p></article>
+    <article class="card" data-animate><h3>Évolutivité</h3><p>Faites évoluer vos flux sans frein technique.</p></article>
+  </div>
+</section>
+
+<section id="proof" class="section alt">
+  <h2 data-animate>Ils font déjà confiance</h2>
+  <div class="logos" data-animate>
+    <img src="logo1.svg" alt="Logo 1">
+    <img src="logo2.svg" alt="Logo 2">
+    <img src="logo3.svg" alt="Logo 3">
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2 data-animate>Discutons de votre projet</h2>
+  <form id="lead">
+    <input type="text" name="name" placeholder="Votre nom" required>
+    <input type="email" name="email" placeholder="Votre email" required>
+    <button type="submit" class="cta">Envoyer</button>
+  </form>
+</section>
+
+<footer class="footer">
+  <p>© 2025 Grégory – Connecteurs personnalisés</p>
+</footer>
+<script type="module" src="script.js"></script>
 </body>
 </html>

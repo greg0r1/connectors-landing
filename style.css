@@ -1,4 +1,91 @@
-/* Add styles for the landing page */
+/* Base styles */
 body {
-    font-family: Arial, sans-serif;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f7f7f7;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Hero section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1d1d1d, #4b00ae);
+  color: #fff;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 2rem;
+  background: #ff5700;
+  color: #fff;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.cta:hover {
+  background: #e04500;
+}
+
+/* Sections */
+.section {
+  padding: 4rem 1rem;
+  background: #fff;
+  text-align: center;
+}
+
+.section.alt {
+  background: #eee;
+}
+
+.grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  flex: 1 1 200px;
+}
+
+.logos img {
+  max-height: 40px;
+  margin: 0 1rem;
+}
+
+.footer {
+  background: #1d1d1d;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+/* Animations */
+[data-animate] {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+[data-animate].visible {
+  opacity: 1;
+  transform: translateY(0);
 }
