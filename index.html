@@ -1,53 +1,142 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Connecteurs personnalisés – Grégory</title>
+  <meta name="description"
+    content="Connecteurs personnalisés : intégrez et automatisez vos outils pour gagner du temps et sécuriser vos données. Contactez Grégory pour une solution sur-mesure !">
+  <title>Connecteurs personnalisés – Grégory Dernaucourt</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="image/favicon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="image/favicon.png">
+  <link rel="apple-touch-icon" href="image/favicon.png">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <meta name="theme-color" content="#7749ff">
+
 </head>
+
 <body>
-<header class="hero">
-  <div class="container">
-    <h1 data-animate>Connectez vos outils en toute simplicité</h1>
-    <p data-animate>Intégrations sur-mesure pour gagner du temps et réduire vos coûts</p>
-    <a href="#contact" class="cta" data-animate>Planifiez un appel</a>
-  </div>
-</header>
+  <header class="hero">
+    <div style="position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;overflow:hidden;">
+      <canvas id="header-bg-canvas" style="width:100%;height:100%;display:block;"></canvas>
+    </div>
+    <div class="container">
+      <h1 data-animate>Connectez vos outils à ChatGPT en toute simplicité</h1>
+      <p data-animate>Pour indépendants, PME et services IT : automatisez, centralisez et exploitez l’IA grâce à des
+        connecteurs sur-mesure (WordPress, PrestaShop, outils métiers, etc.).</p>
+      <a href="#contact" class="cta" data-animate aria-label="Planifiez un appel avec Grégory">Planifiez un appel</a>
+      <a href="#benefits" class="scroll-down" aria-label="Voir la suite">
+        <span class="arrow"></span>
+      </a>
+    </div>
+  </header>
 
-<section id="benefits" class="section">
-  <h2 data-animate>Vos gains immédiats</h2>
-  <div class="grid">
-    <article class="card" data-animate><h3>Efficacité</h3><p>Réduisez les tâches répétitives.</p></article>
-    <article class="card" data-animate><h3>Sécurité</h3><p>Garantissez la fiabilité des échanges de données.</p></article>
-    <article class="card" data-animate><h3>Évolutivité</h3><p>Faites évoluer vos flux sans frein technique.</p></article>
-  </div>
-</section>
+  <section id="benefits" class="section light">
+    <h2 data-animate>Vos gains immédiats</h2>
+    <div class="grid">
+      <article class="card" data-animate>
+        <img src="image/illus-hero-1.svg" alt="Personnage efficacité" class="card-illus" width="96" height="96"
+          loading="lazy" />
+        <h3>Efficacité</h3>
+        <p>Éliminez les tâches répétitives et concentrez-vous sur l’essentiel.</p>
+      </article>
+      <article class="card" data-animate>
+        <img src="image/illus-hero-2.svg" alt="Personnage sécurité" class="card-illus" width="96" height="96"
+          loading="lazy" />
+        <h3>Sécurité</h3>
+        <p>Assurez la fiabilité et la confidentialité de vos échanges de données.</p>
+      </article>
+      <article class="card" data-animate>
+        <img src="image/illus-hero-3.svg" alt="Personnage évolutivité" class="card-illus" width="96" height="96"
+          loading="lazy" />
+        <h3>Évolutivité</h3>
+        <p>Faites évoluer vos flux sans contrainte technique.</p>
+      </article>
+    </div>
+  </section>
 
-<section id="proof" class="section alt">
-  <h2 data-animate>Ils font déjà confiance</h2>
-  <div class="logos" data-animate>
-    <img src="logo1.svg" alt="Logo 1">
-    <img src="logo2.svg" alt="Logo 2">
-    <img src="logo3.svg" alt="Logo 3">
-  </div>
-</section>
+  <section id="how" class="section dark">
+    <h2 data-animate>Comment ça marche&nbsp;?</h2>
+    <div class="grid">
+      <article class="card" data-animate>
+        <span class="icon" aria-hidden="true">🔍</span>
+        <h3>1. Analyse</h3>
+        <p>Nous échangeons sur vos besoins et vos outils.</p>
+      </article>
+      <article class="card" data-animate>
+        <span class="icon" aria-hidden="true">🛠️</span>
+        <h3>2. Prototype</h3>
+        <p>Je conçois une solution adaptée et vous la présente rapidement.</p>
+      </article>
+      <article class="card" data-animate>
+        <span class="icon" aria-hidden="true">✅</span>
+        <h3>3. Mise en place</h3>
+        <p>Déploiement, tests et accompagnement pour une intégration sans friction.</p>
+      </article>
+    </div>
+  </section>
 
-<section id="contact" class="section">
-  <h2 data-animate>Discutons de votre projet</h2>
-  <form id="lead">
-    <input type="text" name="name" placeholder="Votre nom" required>
-    <input type="email" name="email" placeholder="Votre email" required>
-    <button type="submit" class="cta">Envoyer</button>
-  </form>
-</section>
+  <section id="proof" class="section light">
+    <h2 data-animate>Ils me font déjà confiance</h2>
+    <div class="logos" data-animate>
+      <img src="image/logo1.png" alt="Logo client 1 – intégration réussie" loading="lazy"
+        style="max-height:48px;width:auto;object-fit:contain;">
+      <img src="image/logo2.svg" alt="Logo client 2 – automatisation sur mesure" loading="lazy"
+        style="max-height:48px;width:auto;object-fit:contain;">
+      <img src="image/logo3.png" alt="Logo client 3 – connecteur personnalisé" loading="lazy"
+        style="max-height:48px;width:auto;object-fit:contain;">
+    </div>
+    <div class="testimonials" data-animate>
+      <blockquote>« Grâce à l’intégration ChatGPT, nos process sont 2x plus rapides. »<br><span>— Client PME</span>
+      </blockquote>
+      <blockquote>« Connecteur PrestaShop fiable, support réactif et sur-mesure. »<br><span>— Responsable
+          e-commerce</span></blockquote>
+    </div>
+  </section>
 
-<footer class="footer">
-  <p>© 2025 Grégory – Connecteurs personnalisés</p>
-</footer>
-<script type="module" src="script.js"></script>
+  <section id="faq" class="section dark">
+    <h2 data-animate>Questions fréquentes</h2>
+    <div class="faq-list grid">
+      <article class="card" data-animate>
+        <span class="icon" aria-hidden="true">🔗</span>
+        <h3>Quels outils puis-je connecter ?</h3>
+        <p>Tous types d’outils : WordPress, PrestaShop, serveurs NAS, CRM, outils métiers, etc.</p>
+      </article>
+      <article class="card" data-animate>
+        <span class="icon" aria-hidden="true">🛡️</span>
+        <h3>Mes données sont-elles sécurisées ?</h3>
+        <p>Oui, chaque connecteur est conçu pour garantir la confidentialité et la sécurité de vos données.</p>
+      </article>
+      <article class="card" data-animate>
+        <span class="icon" aria-hidden="true">⏱️</span>
+        <h3>Combien de temps pour une intégration ?</h3>
+        <p>Un prototype est livré en quelques jours, puis déploiement rapide après validation.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="section light">
+    <h2 data-animate>Discutons de votre projet</h2>
+    <form id="lead" autocomplete="on">
+      <label for="name">Votre nom</label>
+      <input type="text" id="name" name="name" placeholder="Votre nom" required>
+      <label for="email">Votre email</label>
+      <input type="email" id="email" name="email" placeholder="Votre email" required>
+      <button type="submit" class="cta">Envoyer</button>
+      <p id="form-message" style="display:none;color:green;margin-top:1em;">Merci, votre message a bien été
+        envoyé&nbsp;!</p>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Grégory Dernaucourt – Connecteurs personnalisés &nbsp;|&nbsp; <a
+        href="https://www.linkedin.com/in/gregorydernaucourt/" target="_blank" rel="noopener">LinkedIn</a></p>
+  </footer>
+  <script type="module" src="script.js"></script>
 </body>
+
 </html>
